@@ -66,6 +66,12 @@ Each command transitions the robot through a finite-state machine (FSM) managing
 - Left / right rotations  
 - Speed levels (1×, 2×, 3× base speed)  
 
+## Control Logic Overview
+
+The following algorith diagram summarizes the firmware behavior, including
+initialization, PI control loop, safety callbacks, and state transitions:
+
+![Algorithm Diagram](algorigramme_projet10.svg)
 
 
 ## Implementation Summary  
@@ -165,3 +171,4 @@ STM32_Robot/
 **Tao-kann Martin**
 
 Autonomous development — École des Mines de Saint-Étienne  
+
